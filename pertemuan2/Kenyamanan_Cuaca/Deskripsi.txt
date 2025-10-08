@@ -1,0 +1,27 @@
+Judul: Fuzzy Logic - Kenyamanan Cuaca
+
+Deskripsi:
+Proyek ini merupakan implementasi logika fuzzy untuk mengukur tingkat kenyamanan cuaca berdasarkan empat parameter utama: suhu (°C), kelembapan (%), kecepatan angin (km/jam), dan tingkat partikel debu (µg/m³).
+Logika fuzzy digunakan untuk menilai kenyamanan secara lebih realistis karena mempertimbangkan ketidakpastian dan nilai tengah antar kondisi ekstrem.
+
+Proses meliputi:
+
+1. Pembuatan dataset sederhana (80 baris) berisi nilai acak tiap parameter cuaca.
+2. Pembuatan fungsi fuzzy `comfort_fuzzy()` untuk menghasilkan skor kenyamanan (0–100).
+3. Penentuan kategori kenyamanan: Tidak Nyaman, Cukup Nyaman, dan Nyaman.
+4. Pembuatan berbagai visualisasi (histogram, scatter plot, heatmap, dan pie chart) untuk menganalisis hubungan antar variabel.
+
+Insight:
+
+* Dihasilkan kolom baru `comfort_score` dan `comfort_level` sebagai hasil inferensi fuzzy.
+* Nilai `comfort_score` cenderung lebih tinggi pada suhu sedang (24–28°C), kelembapan menengah (45–60%), dan tingkat debu rendah.
+
+Output:
+
+* Dataset: `kenyamanan_cuaca_dataset.csv`
+* Notebook: `kenyamanan_cuaca_fuzzy_notebook.ipynb`
+* Dependencies: `requirements.txt`
+* Visualisasi: distribusi comfort score, korelasi antar variabel, dan proporsi level kenyamanan.
+
+Repo GitHub:
+https://github.com/CobalFloyd/labAI/tree/main/pertemuan2
